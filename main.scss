@@ -1,0 +1,57 @@
+$font-stack: Arial, sans-serif;
+@import "font-awesome";
+
+.fa fa-circle-thin{
+  padding-right: 90px;
+}
+
+
+
+
+  body {
+    border: 2px solid black;
+    width: 185px;
+    font-family: $font-stack;
+
+
+  }
+
+li{
+
+  text-align: center;
+  right: 41px;
+  position: relative;
+  text-align: center;
+border: 1px solid #54565A;
+width: 185px;
+  padding-right: 1px;
+background-color:#54565A;
+
+  &:hover {
+    background:darken(#86AC33,8%);
+    transition: all 0.3s ease;
+}
+
+// &:active {
+//   font:darken(yellow,8%);
+//   transition: all 0.3s ease;
+//
+// }
+
+
+p {
+    border: 1px solid black;
+    width:184px;
+    height:30px;
+    margin: auto;
+    text-align: center;
+    background-color: #e5e5e5;
+}
+}
+
+
+
+i {
+padding-left: 30px;
+
+}
